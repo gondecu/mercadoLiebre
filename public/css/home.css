@@ -17,19 +17,38 @@ header {
     padding: 5%;
 }
 
-.logo, .form{
-    width: 50%;
+.logo{
+    width: 45%;
 }
 
 .form{
     display: flex;
 }
 
-.submit{
-    background-color: #FFF;
-    border: 1px solid #000;
-    color: #666;
-    width: 10%;
+.search-box{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.busqueda{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.barra{
+    margin: auto;
+    background-color: var(--col--light--gray);
+    border: none;
+    outline: none;
+}
+
+.fa-search{
+    margin: auto;
 }
 
 .subtitle{
@@ -118,18 +137,32 @@ main section article i{
 }
 
 .pie-de-pagina{
-    text-align: center;
+    margin: 0px auto;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .fa-credit-card, .fa-gift, .fa-user-shield{
     font-size: 2em;
     margin-bottom: 10px;
     color: #0053ac;
+    display: flex;
+    justify-content: center;
 }
 
-.last{
-    margin-top: 12px;
+footer{
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0px;
+}
+
+footer article p{
+    text-align: center;
 }
 
 @media(min-width:361px){
@@ -168,7 +201,7 @@ main section article i{
         justify-content: space-between;
     }
     .logo{
-        width: 30%;
+        width: 50%;
     }
     .subtitle{
         max-width: 350px;

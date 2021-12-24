@@ -130,20 +130,11 @@ main section article i{
 .last{
     margin-top: 12px;
     background-color: white;
+    display: flex;
 }
 
 /*------LOGIN-----*/
-input, button{
-    margin: 15px 0px;
-    display: flex;
-    flex-direction: column;
-}
 
-.mini-nav{
-    border-radius: 10px;
-    padding: 10px 0px 10px 0px;
- }
- 
 /*-----CIERRE LOGIN------*/
 
 
