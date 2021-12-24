@@ -42,22 +42,31 @@
     </header>
 
     <main>
+    <div class="formulario">
+        <h2>Crear Cuenta</h2>
     <form action="/register" method='POST'>
-        <div class="formulario">
+        
         <label class="titulo" for="nombreApellido">Nombre y Apellido</label>
         <input class="mini-nav" type="text" name="nombreApellido" id="nombreApellido" placeholder="Ej: Juan Lopez">
+
         <label class="titulo" for="nombreUsuario">Nombre de Usuario</label>
         <input class="mini-nav" type="text" name="nombreUsuario" id="nombreUsuario">
+
         <label class="titulo" for="mail">Email</label>
         <input class="mini-nav" type="email" name="mail" id="mail" placeholder="juanlopez@gmail.com">
+
         <label class="titulo" for="contraseña">Contraseña</label>
         <input class="mini-nav" type="password" name="contraseña" id="contraseña">
+
         <label class="titulo" for="confirmarContraseña">Confirmar contraseña</label>
         <input class="mini-nav" type="password" name="confirmarContraseña" id="confirmarContraseña">
+
         <label class="titulo" for="fechaDeNacimiento">Fecha de Nacimiento</label>
         <input class="mini-nav" type="date" name="fechaDeNacimiento" id="fechaDeNacimiento">
+
         <label class="titulo" for="direccion">Domicilio</label>
         <input class="mini-nav" type="text" name="direccion" id="direccion">
+
         <label class="titulo" for="">Perfil del Usuario</label>
         <div class="perfilUser">
         <label>
@@ -67,6 +76,7 @@
             <input type="radio" name="perfilUsuario" value="venta">Vendedor
         </label>
         </div>
+
         <label class="titulo" for="">Intereses</label>
         <div class="interest">
         <label>
@@ -85,12 +95,14 @@
             <input type="checkbox" name="interes" value="sano">Vida sana
         </label>
         </div>
+
         <div class="botones">
         <button class="boton" type="submit">Enviar</button>    
         <button class="boton" type="reset">Cancelar</button>
         </div>
-    </div>
+    
     </form>
+    </div>
     </main>
 
     <footer>
