@@ -93,7 +93,48 @@ div.burger-menu{
     width: 40px;
 }
 /*------LOGIN-----*/
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    min-height: 270px;
+    padding: 20px;
+}
 
+main div form h2{
+    color: #0053ac;
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+.formulario-login{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.formulario-login input{
+    border-radius: 10px;
+    border: none;
+    padding: 8px 0px 8px 0px;
+}
+
+.formulario-login button {
+    width: 30%;
+    padding: 10px 40px 10px 40px;
+    border: none;
+    background-color: #0053ac;
+    color: white;
+    border-radius: 10px;
+    align-self: center;
+}
 /*-----CIERRE LOGIN------*/
 
 .pie-de-pagina{
