@@ -104,10 +104,39 @@ main{
     max-width: 500px;
 }
 
+h2{
+    color: #0053ac;
+}
+
 .formulario-elemento{
     display: flex;
     flex-direction: column;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
+
+.formulario-elemento input{
+    border-radius: 10px;
+    border: none;
+    padding: 8px 0px 8px 0px;
+}
+
+.formulario-elemento-multiple{
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    gap: 12px;
+}
+
+.formulario-elemento-multiple button{
+    padding: 10px 40px 10px 40px;
+    margin-top: 10px;
+    border: none;
+    background-color: #0053ac;
+    color: white;
+    border-radius: 10px;
+}
+
 
 
 /*----Final Register CSS----*/
