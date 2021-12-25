@@ -93,6 +93,22 @@ div.burger-menu{
     width: 40px;
 }
 /*----REGISTER CSS----*/
+main{
+    padding: 20px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.formulario-elemento{
+    display: flex;
+    flex-direction: column;
+}
+
 
 /*----Final Register CSS----*/
 .pie-de-pagina{
