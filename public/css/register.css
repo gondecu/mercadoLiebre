@@ -38,6 +38,7 @@ header {
     padding: 10px;
     background-color: white;
     border-radius: 10px;
+    width: 40vw;
 }
 
 .barra{
@@ -221,6 +222,16 @@ footer article p{
     .main-nav li{
         margin: 0 6px;
     }
+    .busqueda{
+        width: 25vw;
+    }
+    footer{
+        flex-direction: row;
+    }
+    .pie-de-pagina{
+        width: 30%;
+        text-align: center;
+    }
 }
 
 @media (min-width:1200px){
@@ -236,5 +247,8 @@ footer article p{
     }
     .subtitle{
         max-width: none;
+    }
+    .busqueda{
+        width: 20vw;
     }
 }
